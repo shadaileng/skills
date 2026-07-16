@@ -24,7 +24,7 @@ description: >
 ## 文件结构
 
 ```
-.opencode/skills/
+skills/
 └── example/
     └── SKILL.md
 ```

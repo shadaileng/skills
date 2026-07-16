@@ -5,12 +5,11 @@
 ## 目录结构
 
 ```
-.opencode/
-└── skills/
-    ├── example/
-    │   └── SKILL.md
-    └── [其他 skill 目录]/
-        └── SKILL.md
+skills/
+├── example/
+│   └── SKILL.md
+└── [其他 skill 目录]/
+    └── SKILL.md
 ```
 
 ## 如何使用
@@ -20,7 +19,7 @@
    ```json
    {
      "skills": {
-       "paths": ["path/to/skills/.opencode/skills"]
+       "paths": ["path/to/skills/skills"]
      }
    }
    ```
@@ -28,7 +27,7 @@
 
 ## 如何创建新 Skill
 
-1. 在 `.opencode/skills/` 目录下创建新目录
+1. 在 `skills/` 目录下创建新目录
 2. 在新目录中创建 `SKILL.md` 文件
 3. 按照以下格式编写：
 

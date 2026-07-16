@@ -10,13 +10,13 @@
    ```json
    {
      "skills": {
-       "paths": [".opencode/skills"]
+       "paths": ["path/to/skills/skills"]
      }
    }
    ```
 
 2. **创建新 skill**：
-   - 在 `.opencode/skills/` 下创建目录
+   - 在 `skills/` 下创建目录
    - 添加 `SKILL.md` 文件
    - 遵循 frontmatter 格式
 
@@ -29,7 +29,7 @@
 ## 文件结构
 
 ```
-.opencode/skills/
+skills/
 ├── example/
 │   └── SKILL.md
 └── [skill-name]/
